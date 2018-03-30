@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-)
+)// imports
 
 func intopost(infix string) string{
 	specials := map[rune]int{'*': 10,'.': 9,'|': 8}
@@ -54,4 +54,5 @@ func main(){
 	// Answer: abb.+.c.
 	fmt.Println("Infix:   ", "a.(b.b)+.c")
 	fmt.Println("Postfix: ", intopost("a.(b.b)+.c"))
+
 }
