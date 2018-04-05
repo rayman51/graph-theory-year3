@@ -29,8 +29,12 @@ You must write a program in the Go programming language [2] that can build a non
 4. Implement the matching algorithm using the NFA.
 
 ## Helpful Websites
-[Shunting Yard Algorithm](https://brilliant.org/wiki/shunting-yard-algorithm/) converting from infix to postfix notation.
+[Shunting Yard Algorithm](https://brilliant.org/wiki/shunting-yard-algorithm/) 
+
 [Deterministic Finite Automata Example](https://www.tutorialspoint.com/automata_theory/deterministic_finite_automaton.htm)
+
 [Non-Deterministic Finite Automata NFA Example](https://www.tutorialspoint.com/automata_theory/non_deterministic_finite_automaton.htm)
+
 [Thompson's Regular Expression Explaination](https://swtch.com/~rsc/regexp/regexp1.html)
+
 [Go Lanuage](https://golang.org/)
