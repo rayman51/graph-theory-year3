@@ -119,6 +119,7 @@ func main(){
 	fmt.Println(pomatch("ab.c*|", ""))
 	fmt.Println(pomatch("ab.c*|", "ccccccccccccc"))
 	fmt.Println(pomatch("ab.c*|", "def"))
+	
 
 
 }// main
