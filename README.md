@@ -5,7 +5,7 @@ My name is Ray Mannion and I am a 3rd student at the Galway/Mayo Institute of Te
 
 In this repository you will find a project I was asked to complete for a graph theory module. The project was completed using the Go programming language, which I am currently learning.
 
-In order for you to run these programs you will need to install the [GO](https://www.google.ie/?gws_rd=cr&dcr=0&ei=SQvUWejfHOaXgAaL3JeoBA)
+In order for you to run these programs you will need to install the [GO](https://golang.org/doc/install)
 compiler on your computer and run the git clone command to pull the files from github.
 
 
