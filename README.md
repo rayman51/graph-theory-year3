@@ -17,9 +17,19 @@ This will then create an executeable file of the same name, but with an ".exe" e
 
 ![alt tag](https://github.com/rayman51/graph-theory-year3/blob/master/images/Capture.PNG?raw=true)
 
+ Run the executable "rega2.exe"
+
+1. Choose an option 1(to start)or 2(to exit)
+
+2. Enter the expression i.e. a*b
+
+3. Enter the string to compare i.e. abb
+
+8. The user will get an answer stating "String is accepted" or "String is not accepted"
+
 ## Project Overview
 
-You must write a program in the Go programming language [2] that can build a non-deterministic finite automaton (NFA) from a regular expression,and can use the NFA to check if the regular expression matches any given string of text. You must write the program from scratch and cannot use the regexp package from the Go standard library nor any other external library. A regular expression is a string containing a series of characters, some of which may have a special meaning. For example, the three characters “.”, “|”, and “∗” have the special meanings “concatenate”, “or”, and “Kleene star” respectively. So, 0.1 means a 0 followed by a 1, 0|1 means a 0 or a 1, and 1∗ means any number of 1’s. These special characters must be used in your submission.
+You must write a program in the Go programming language that can build a non-deterministic finite automaton (NFA) from a regular expression, and can use the NFA to check if the regular expression matches any given string of text. You must write the program from scratch and cannot use the regexp package from the Go standard library nor any other external library. A regular expression is a string containing a series of characters, some of which may have a special meaning. For example, the three characters “.”, “|”, and “∗” have the special meanings “concatenate”, “or”, and “Kleene star” respectively. So, 0.1 means a 0 followed by a 1, 0|1 means a 0 or a 1, and 1∗ means any number of 1’s. These special characters must be used in your submission.
 
  Other special characters you might consider allowing as input are brackets “()” which can be used for grouping, “+” which means “at least one of”, and “?” which means “zero or one of”. You might also decide to remove the concatenation character, so that 1.0 becomes 10, with the concatenation implicit. You may initially restrict the non-special characters your program works with to 0 and 1, if you wish. However, you should at least attempt to expand these to all of the digits, and the characters a to z, and A to Z. You are expected to be able to break this project into a number of smaller tasks that are easier to solve, and to plug these together after they have been completed. You might do that for this project as follows:
 
@@ -38,3 +48,9 @@ You must write a program in the Go programming language [2] that can build a non
 [Thompson's Regular Expression Explaination](https://swtch.com/~rsc/regexp/regexp1.html)
 
 [Go Lanuage](https://golang.org/)
+
+[NFA using java](https://algs4.cs.princeton.edu/54regexp/NFA.java.html)
+
+[Regular exp to nfa c++](http://cplusplus.happycodings.com/algorithms/code21.html)
+
+[Python example](https://www.ics.uci.edu/~eppstein/PADS/Automata.py)
